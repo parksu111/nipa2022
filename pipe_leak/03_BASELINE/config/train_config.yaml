@@ -1,0 +1,28 @@
+DIRECTORY:
+  data: path/to/01_split/directory
+
+SEED:
+  random_seed: 42
+
+MODEL: lgbm 
+PARAMETER:
+  n_estimators: 500
+  learning_rate: 0.1
+  feature_fraction: 0.06
+  bagging_fraction: 0.67
+  bagging_freq: 1
+  verbose: 0
+  n_jobs: 6
+  random_state: 42
+  num_class: 3
+  
+LABEL_ENCODING:
+  other: 0
+  noise: 1
+  normal: 2
+  in: 3
+  out: 4
+
+TRAIN:
+  early_stopping_round: 15
+  
