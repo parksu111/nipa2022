@@ -1,0 +1,15 @@
+DIRECTORY:
+  data: path/to/01_split/directory
+  sample: path/to/sample_submission.csv/file
+  phase: test 
+
+EXPERIMENT:
+  serial: train_serial_number
+
+LABEL_ENCODING:
+  other: 0
+  noise: 1
+  normal: 2
+  in: 3
+  out: 4
+  
