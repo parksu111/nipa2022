@@ -1,3 +1,0 @@
-DIRECTORY:
-  srcdir: /path/to/00_source
-  dstdir: /path/to/01_split
