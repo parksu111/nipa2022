@@ -12,9 +12,20 @@ As a Data Scientist at [MNC](https://mnc.ai/), I was responsible for developing 
 * Description: Using images of beef slices, classify the grade of beef into one of 5 grades (1++,1+,1,2,3).
 * Evaluation: Submissions are evaluated on the *Quadratic Weighted Kappa*.
   * An explanation and implementation of the metric in python can be found in this [notebook]().
+  * Final scores are calculated on both the public(30%) and private(70%) test datasets.
 * Data: Images of beef slices & labels in a csv.
   * Sample data can be found [here](https://github.com/parksu111/nipa2022/tree/main/cow_grade/01_DATA).
   * The full dataset is available for download [here](https://www.aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=realm&dataSetSn=158).
 
-### Baseline Model
-
+### Data / Code
+All the code for this project can be found in the 'cow_grade' folder of this repository.
+* **01_DATA**
+  * Sample dataset
+* **02_WORKSPACE**
+  * *qwk.ipynb* - Explanation of the evaluation metric.
+* **03_BASELINE**
+  * The baseline model for this task uses the pretrained Efficientnet-b4.
+* **04_SUBMIT**
+  * *evaluate.py* - Script to receive submissions and calculate the final score.
+  * Due to privacy issues, the actual answer file is not shared with the public.
+ 
