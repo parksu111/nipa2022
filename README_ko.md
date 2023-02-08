@@ -1,4 +1,6 @@
 # 2022 NIPA 온라인 인공지능 경진대회
+[English]() | 한국어
+
 ![alt](https://github.com/parksu111/nipa2022/blob/main/img/banner.png)
 
 NIPA 2022 인공지능 온라인 경진대회 베이스라인 코드
